@@ -10,7 +10,7 @@
 
 **HoopTracker** was created to help parents use data to support their child’s basketball development and track progress over time. Parents can enter a player’s details, including name, height, weight, and position, and update them as the child grows and improves.
 
-Before each game, parents can create a game title and begin tracking real-time stats. A timer records on-court minutes, and users can log stats including points, assists, rebounds, defensive actions, and fouls. For all points scored, parents mark made or missed shots, identifying whether it was a 2-pointer, 3-pointer, or free throw.
+Before each game, parents can create a game title and begin tracking real-time stats. A timer records on-court minutes and can be paused when the player is on the bench. Users can log stats including points, assists, rebounds, defensive actions, and fouls. For all points scored, parents click on the interactive court to mark made or missed shots and specify whether it was a 2-pointer, 3-pointer, or free throw.
 
 After the game ends, stats are compiled in the Advanced Stats section, where performance is displayed in dynamic bar and line charts. This enables parents and coaches to analyze trends and identify areas for improvement.
 
@@ -43,4 +43,5 @@ Automatic aggregation and visualization of performance data
 Designed for both parents and coaches
 
 Mobile-friendly and easy-to-use interface
+
 
