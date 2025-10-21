@@ -1,0 +1,268 @@
+/* GENERAL */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #e2e2e2; /* grey background */
+  color: #222;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+/* START SCREEN */
+.start-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.start-buttons button {
+  font-size: 20px;
+  padding: 15px 30px;
+  cursor: pointer;
+  background-color: #4c6cff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.start-buttons button:hover {
+  background-color: #3b53cc;
+}
+
+/* PROFILE FORM */
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.profile-form input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+}
+
+.profile-form button {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4c6cff;
+  color: white;
+  cursor: pointer;
+}
+
+.profile-form button:hover {
+  background-color: #3b53cc;
+}
+
+/* TABS */
+.tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.tabs button {
+  padding: 10px 18px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #4c6cff;
+  color: white;
+  transition: 0.2s;
+}
+
+.tabs button:hover {
+  background-color: #3b53cc;
+}
+
+/* TIMER */
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.timer button {
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  background-color: #4c6cff;
+  color: white;
+}
+
+/* COURT */
+.court {
+  position: relative;
+  width: 600px;
+  height: 350px;
+  margin: 20px auto;
+  background-color: #c7a36f;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* COURT LINES (half-court realistic) */
+.paint {
+  position: absolute;
+  bottom: 0;
+  left: 220px;
+  width: 160px;
+  height: 190px;
+  border: 2px solid white;
+  border-bottom: none;
+}
+
+.ft-line {
+  position: absolute;
+  bottom: 190px;
+  left: 250px;
+  width: 100px;
+  height: 1px;
+  background-color: white;
+}
+
+.block {
+  position: absolute;
+  bottom: 0;
+  left: 290px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+}
+
+.arc {
+  position: absolute;
+  bottom: 0;
+  left: 80px;
+  width: 440px;
+  height: 220px;
+  border: 2px solid white;
+  border-radius: 50% / 60%;
+  border-bottom: none;
+}
+
+.hoop {
+  position: absolute;
+  bottom: 200px;
+  left: 290px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+/* COURT OVERLAY */
+.court-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: crosshair;
+}
+
+/* SHOT MARKS */
+.shot-mark {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #222;
+}
+
+/* STAT BUTTONS */
+.stat-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.stat-buttons button {
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  background-color: #4c6cff;
+  color: white;
+  cursor: pointer;
+}
+
+.stat-buttons button:hover {
+  background-color: #3b53cc;
+}
+
+/* BOX SCORE */
+.box-score {
+  margin-top: 20px;
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+/* CHARTS */
+.charts {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.charts select {
+  margin-bottom: 15px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.charts canvas {
+  margin-bottom: 25px;
+}
+
+/* Popup */
+.popup {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  z-index: 999;
+}
+
+
+
+
+
